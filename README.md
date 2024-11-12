@@ -38,11 +38,14 @@
 
    <key>NSLocationWhenInUseUsageDescription</key>
    <string>We need your location to track the device accurately.</string>
+
    <key>NSLocationAlwaysUsageDescription</key>
    <string>We need your location even when the app is in the background.</string>
+
    <key>NSBluetoothAlwaysUsageDescription</key>
    <string>Bluetooth is required to share your location with nearby devices.</string>
-5. Build and Run:
+   
+6. Build and Run:
   •	Select your device as the target in Xcode (BLE and GPS features require a physical device).
 	•	Press Cmd + R or click Run to build and deploy the app.
-6. 
+7. 
