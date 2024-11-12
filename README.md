@@ -43,6 +43,7 @@
    - \<key>NSBluetoothAlwaysUsageDescription\</key> : \<string>Bluetooth is required to share your location with nearby devices.\</string>
    
 6. Build and Run:
-   	•	Select your device as the target in Xcode (BLE and GPS features require a physical device).
-   	•	Press Cmd + R or click Run to build and deploy the app.
-8. 
+  
+   - Select your device as the target in Xcode (BLE and GPS features require a physical device).
+   - Press Cmd + R or click Run to build and deploy the app.
+9. 
