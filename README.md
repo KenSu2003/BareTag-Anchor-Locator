@@ -59,3 +59,15 @@
 	   - Location data is now being advertised over Bluetooth
 2. Viewing Status Updates:
    - Status updates are displayed below the button, giving real-time feedback on each stage of the process.
+  
+---
+## Troubleshooting
+
+•	Stuck on “Fetching GPS location”:
+•	Ensure that location permissions are enabled in Settings > Privacy > Location Services.
+•	Make sure you’re testing on a device with a clear view of the sky (for better GPS accuracy).
+•	Bluetooth Issues:
+•	Confirm that Bluetooth is enabled in the device’s settings.
+•	If Bluetooth is unavailable, the app will display “Bluetooth is not available.”
+
+
