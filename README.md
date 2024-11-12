@@ -36,14 +36,11 @@
    
    Ensure Info.plist includes the necessary permissions for location and Bluetooth usage.
 
-   - <key>NSLocationWhenInUseUsageDescription</key>
-   \<string>We need your location to track the device accurately.\</string>
+   - \<key>NSLocationWhenInUseUsageDescription\</key> : \<string>We need your location to track the device accurately.\</string>
 
-   - <key>NSLocationAlwaysUsageDescription</key>
-   <string>We need your location even when the app is in the background.</string>
+   - \<key>NSLocationAlwaysUsageDescription\</key> : \<string>We need your location even when the app is in the background.\</string>
 
-   - <key>NSBluetoothAlwaysUsageDescription</key>
-   <string>Bluetooth is required to share your location with nearby devices.</string>
+   - \<key>NSBluetoothAlwaysUsageDescription\</key> : \<string>Bluetooth is required to share your location with nearby devices.\</string>
    
 6. Build and Run:
   •	Select your device as the target in Xcode (BLE and GPS features require a physical device).
