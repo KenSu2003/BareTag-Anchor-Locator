@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F6EE34532CE2DE0700752038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6EE343A2CE2DE0500752038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6EE34412CE2DE0500752038;
+			remoteInfo = "BareTag Anchor Locator";
+		};
+		F6EE345D2CE2DE0700752038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6EE343A2CE2DE0500752038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6EE34412CE2DE0500752038;
+			remoteInfo = "BareTag Anchor Locator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6EE34422CE2DE0500752038 /* BareTag Anchor Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BareTag Anchor Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EE34522CE2DE0700752038 /* BareTag Anchor LocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BareTag Anchor LocatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EE345C2CE2DE0700752038 /* BareTag Anchor LocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BareTag Anchor LocatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F6EE34442CE2DE0500752038 /* BareTag Anchor Locator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BareTag Anchor Locator";
+			sourceTree = "<group>";
+		};
+		F6EE34552CE2DE0700752038 /* BareTag Anchor LocatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BareTag Anchor LocatorTests";
+			sourceTree = "<group>";
+		};
+		F6EE345F2CE2DE0700752038 /* BareTag Anchor LocatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "BareTag Anchor LocatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6EE343F2CE2DE0500752038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE344F2CE2DE0700752038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE34592CE2DE0700752038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6EE34392CE2DE0500752038 = {
+			isa = PBXGroup;
+			children = (
+				F6EE34442CE2DE0500752038 /* BareTag Anchor Locator */,
+				F6EE34552CE2DE0700752038 /* BareTag Anchor LocatorTests */,
+				F6EE345F2CE2DE0700752038 /* BareTag Anchor LocatorUITests */,
+				F6EE34432CE2DE0500752038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6EE34432CE2DE0500752038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6EE34422CE2DE0500752038 /* BareTag Anchor Locator.app */,
+				F6EE34522CE2DE0700752038 /* BareTag Anchor LocatorTests.xctest */,
+				F6EE345C2CE2DE0700752038 /* BareTag Anchor LocatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6EE34412CE2DE0500752038 /* BareTag Anchor Locator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EE34662CE2DE0700752038 /* Build configuration list for PBXNativeTarget "BareTag Anchor Locator" */;
+			buildPhases = (
+				F6EE343E2CE2DE0500752038 /* Sources */,
+				F6EE343F2CE2DE0500752038 /* Frameworks */,
+				F6EE34402CE2DE0500752038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F6EE34442CE2DE0500752038 /* BareTag Anchor Locator */,
+			);
+			name = "BareTag Anchor Locator";
+			packageProductDependencies = (
+			);
+			productName = "BareTag Anchor Locator";
+			productReference = F6EE34422CE2DE0500752038 /* BareTag Anchor Locator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6EE34512CE2DE0700752038 /* BareTag Anchor LocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EE34692CE2DE0700752038 /* Build configuration list for PBXNativeTarget "BareTag Anchor LocatorTests" */;
+			buildPhases = (
+				F6EE344E2CE2DE0700752038 /* Sources */,
+				F6EE344F2CE2DE0700752038 /* Frameworks */,
+				F6EE34502CE2DE0700752038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6EE34542CE2DE0700752038 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F6EE34552CE2DE0700752038 /* BareTag Anchor LocatorTests */,
+			);
+			name = "BareTag Anchor LocatorTests";
+			packageProductDependencies = (
+			);
+			productName = "BareTag Anchor LocatorTests";
+			productReference = F6EE34522CE2DE0700752038 /* BareTag Anchor LocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6EE345B2CE2DE0700752038 /* BareTag Anchor LocatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EE346C2CE2DE0700752038 /* Build configuration list for PBXNativeTarget "BareTag Anchor LocatorUITests" */;
+			buildPhases = (
+				F6EE34582CE2DE0700752038 /* Sources */,
+				F6EE34592CE2DE0700752038 /* Frameworks */,
+				F6EE345A2CE2DE0700752038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6EE345E2CE2DE0700752038 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F6EE345F2CE2DE0700752038 /* BareTag Anchor LocatorUITests */,
+			);
+			name = "BareTag Anchor LocatorUITests";
+			packageProductDependencies = (
+			);
+			productName = "BareTag Anchor LocatorUITests";
+			productReference = F6EE345C2CE2DE0700752038 /* BareTag Anchor LocatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6EE343A2CE2DE0500752038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					F6EE34412CE2DE0500752038 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					F6EE34512CE2DE0700752038 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F6EE34412CE2DE0500752038;
+					};
+					F6EE345B2CE2DE0700752038 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F6EE34412CE2DE0500752038;
+					};
+				};
+			};
+			buildConfigurationList = F6EE343D2CE2DE0500752038 /* Build configuration list for PBXProject "BareTag Anchor Locator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6EE34392CE2DE0500752038;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F6EE34432CE2DE0500752038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6EE34412CE2DE0500752038 /* BareTag Anchor Locator */,
+				F6EE34512CE2DE0700752038 /* BareTag Anchor LocatorTests */,
+				F6EE345B2CE2DE0700752038 /* BareTag Anchor LocatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6EE34402CE2DE0500752038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE34502CE2DE0700752038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE345A2CE2DE0700752038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6EE343E2CE2DE0500752038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE344E2CE2DE0700752038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EE34582CE2DE0700752038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6EE34542CE2DE0700752038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6EE34412CE2DE0500752038 /* BareTag Anchor Locator */;
+			targetProxy = F6EE34532CE2DE0700752038 /* PBXContainerItemProxy */;
+		};
+		F6EE345E2CE2DE0700752038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6EE34412CE2DE0500752038 /* BareTag Anchor Locator */;
+			targetProxy = F6EE345D2CE2DE0700752038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F6EE34642CE2DE0700752038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6EE34652CE2DE0700752038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6EE34672CE2DE0700752038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BareTag Anchor Locator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sdpteam3.BareTag-Anchor-Locator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6EE34682CE2DE0700752038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BareTag Anchor Locator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sdpteam3.BareTag-Anchor-Locator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6EE346A2CE2DE0700752038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sdpteam3.BareTag-Anchor-LocatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BareTag Anchor Locator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BareTag Anchor Locator";
+			};
+			name = Debug;
+		};
+		F6EE346B2CE2DE0700752038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sdpteam3.BareTag-Anchor-LocatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BareTag Anchor Locator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BareTag Anchor Locator";
+			};
+			name = Release;
+		};
+		F6EE346D2CE2DE0700752038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sdpteam3.BareTag-Anchor-LocatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BareTag Anchor Locator";
+			};
+			name = Debug;
+		};
+		F6EE346E2CE2DE0700752038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sdpteam3.BareTag-Anchor-LocatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BareTag Anchor Locator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6EE343D2CE2DE0500752038 /* Build configuration list for PBXProject "BareTag Anchor Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EE34642CE2DE0700752038 /* Debug */,
+				F6EE34652CE2DE0700752038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EE34662CE2DE0700752038 /* Build configuration list for PBXNativeTarget "BareTag Anchor Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EE34672CE2DE0700752038 /* Debug */,
+				F6EE34682CE2DE0700752038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EE34692CE2DE0700752038 /* Build configuration list for PBXNativeTarget "BareTag Anchor LocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EE346A2CE2DE0700752038 /* Debug */,
+				F6EE346B2CE2DE0700752038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EE346C2CE2DE0700752038 /* Build configuration list for PBXNativeTarget "BareTag Anchor LocatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EE346D2CE2DE0700752038 /* Debug */,
+				F6EE346E2CE2DE0700752038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6EE343A2CE2DE0500752038 /* Project object */;
+}
