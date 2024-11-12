@@ -13,6 +13,8 @@ struct ContentView: View {
     
     var body: some View {
         VStack(spacing: 20) {
+            
+            // Fetch and Forward Location Button
             Button(action: {
                 locationBluetoothManager.fetchLocationAndSend()
             }) {
@@ -23,6 +25,8 @@ struct ContentView: View {
                     .cornerRadius(8)
             }
             
+            
+            // Progress Display
             RoundedRectangle(cornerRadius: 15)
                 .fill(Color.gray.opacity(0.2))
                 .frame(height: 80)
@@ -41,6 +45,8 @@ struct ContentView: View {
                 .padding(.top, 10)
         }
         .padding()
+        
+        // Updated UI on change
         .onChange(of: locationBluetoothManager.latitude) { newValue, oldValue in
             // Update location text when latitude changes
             if let latitude = newValue,
