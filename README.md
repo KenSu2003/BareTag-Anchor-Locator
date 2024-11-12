@@ -29,7 +29,7 @@
    cd BareTag_Anchor_Locator
 
 2. Open in Xcode: 
-   Open the project in Xcode by double-clicking on BareTag_Anchor_Locator.xcodeproj or BareTag_Anchor_Locator.xcworkspace (if using Swift Packages).
+	Open the project in Xcode by double-clicking on BareTag_Anchor_Locator.xcodeproj or BareTag_Anchor_Locator.xcworkspace (if using Swift Packages).
 3. Configure App Permissions:
    
    Ensure Info.plist includes the necessary permissions for location and Bluetooth usage.
