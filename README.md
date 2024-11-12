@@ -32,7 +32,7 @@
 
    Open the project in Xcode by double-clicking on BareTag_Anchor_Locator.xcodeproj or BareTag_Anchor_Locator.xcworkspace (if using Swift Packages).
    
-4. Configure App Permissions:
+3. Configure App Permissions:
    
    Ensure Info.plist includes the necessary permissions for location and Bluetooth usage.
 
@@ -42,8 +42,20 @@
 
    - \<key>NSBluetoothAlwaysUsageDescription\</key> : \<string>Bluetooth is required to share your location with nearby devices.\</string>
    
-6. Build and Run:
-  
+4. Build and Run:
    - Select your device as the target in Xcode (BLE and GPS features require a physical device).
    - Press Cmd + R or click Run to build and deploy the app.
-9. 
+
+---
+
+##Usage
+
+	1.	Fetching Location and Advertising over BLE:
+	•	Launch the app on an iPhone with Bluetooth enabled.
+	•	Tap the Fetch Location & Send via BLE button to begin.
+	•	The app will display status updates such as:
+	•	Setting up Bluetooth
+	•	Fetching GPS location
+	•	Location data is now being advertised over Bluetooth
+	2.	Viewing Status Updates:
+	•	Status updates are displayed below the button, giving real-time feedback on each stage of the process.
