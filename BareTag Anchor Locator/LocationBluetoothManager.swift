@@ -21,6 +21,7 @@ class LocationBluetoothManager: NSObject, ObservableObject, CLLocationManagerDel
     // @Published holds the latest location data to update the UI in real-time
     @Published var latitude: Double?
     @Published var longitude: Double?
+    @Published var geo_location: String?
     
     // Status update for the user UI
     @Published private(set) var status: String = "Initialzing ..."
@@ -33,7 +34,7 @@ class LocationBluetoothManager: NSObject, ObservableObject, CLLocationManagerDel
         // Location Manager
         locationManager.delegate = self                                         // Initialize Location Delegate
         locationManager.requestWhenInUseAuthorization()                         // Requests permission to use location services
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest               // Sets the location acuracy level to teh highest
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest               // Sets the location accuracy level to the highest
         
         // Bluetooth Manager
         peripheralManager = CBPeripheralManager(delegate: self, queue: nil)     // Initialize Bluetooth Delegate
@@ -91,6 +92,8 @@ class LocationBluetoothManager: NSObject, ObservableObject, CLLocationManagerDel
         }
         
         let locationData = "Lat: \(latitude), Lon: \(longitude)"
+        geo_location = locationData
+        print(locationData)
         
         // Packages the data to be advertised = The local name of the peripheral (iPhone): iPhone's Location Data
         let advertisementData: [String: Any] = [CBAdvertisementDataLocalNameKey: locationData]

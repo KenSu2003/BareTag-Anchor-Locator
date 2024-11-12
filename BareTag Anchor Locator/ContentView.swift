@@ -31,7 +31,7 @@ struct ContentView: View {
                 .fill(Color.gray.opacity(0.2))
                 .frame(height: 80)
                 .overlay(
-                    Text(locationText)
+                    Text(locationBluetoothManager.geo_location ?? "Fetching Location")
                         .foregroundColor(.black)
                         .multilineTextAlignment(.center)
                         .padding()
