@@ -63,11 +63,12 @@
 ---
 ## Troubleshooting
 
-•	Stuck on “Fetching GPS location”:
-•	Ensure that location permissions are enabled in Settings > Privacy > Location Services.
-•	Make sure you’re testing on a device with a clear view of the sky (for better GPS accuracy).
-•	Bluetooth Issues:
-•	Confirm that Bluetooth is enabled in the device’s settings.
-•	If Bluetooth is unavailable, the app will display “Bluetooth is not available.”
+Stuck on “Fetching GPS location”:
+- Ensure that location permissions are enabled in Settings > Privacy > Location Services.
+- Make sure you’re testing on a device with a clear view of the sky (for better GPS accuracy).
+
+Bluetooth Issues:
+- Confirm that Bluetooth is enabled in the device’s settings.
+- If Bluetooth is unavailable, the app will display “Bluetooth is not available.”
 
 
