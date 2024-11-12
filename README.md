@@ -48,14 +48,14 @@
 
 ---
 
-##Usage
+## Usage
 
-1.	Fetching Location and Advertising over BLE:
-	•	Launch the app on an iPhone with Bluetooth enabled.
-	•	Tap the Fetch Location & Send via BLE button to begin.
-	•	The app will display status updates such as:
-	•	Setting up Bluetooth
-	•	Fetching GPS location
-	•	Location data is now being advertised over Bluetooth
-2.	Viewing Status Updates:
-	•	Status updates are displayed below the button, giving real-time feedback on each stage of the process.
+1. Fetching Location and Advertising over BLE:
+   - Launch the app on an iPhone with Bluetooth enabled.
+   - Tap the Fetch Location & Send via BLE button to begin.
+   - The app will display status updates such as:
+	   - Setting up Bluetooth
+	   - Fetching GPS location
+	   - Location data is now being advertised over Bluetooth
+2. Viewing Status Updates:
+   - Status updates are displayed below the button, giving real-time feedback on each stage of the process.
