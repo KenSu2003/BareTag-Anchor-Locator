@@ -37,7 +37,7 @@
    Ensure Info.plist includes the necessary permissions for location and Bluetooth usage.
 
    - <key>NSLocationWhenInUseUsageDescription</key>
-   <string>We need your location to track the device accurately.</string>
+   \<string>We need your location to track the device accurately.\</string>
 
    - <key>NSLocationAlwaysUsageDescription</key>
    <string>We need your location even when the app is in the background.</string>
